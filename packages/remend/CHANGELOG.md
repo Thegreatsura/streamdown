@@ -1,5 +1,12 @@
 # remend
 
+## 1.5.1
+
+### Patch Changes
+
+- 46c12c4: Heal nested link and image brackets in linear time.
+- 3934920: Close the link around an incomplete image, so a streaming linked image (`[![alt](…`) no longer shows a literal `[` before the image placeholder.
+
 ## 1.5.0
 
 ### Minor Changes
